@@ -9,7 +9,7 @@ event.preventDefault();
         return;
     }
 
-    window.location.href = "../index.html";
+    window.location.href = "../../index.html";
 });
 
 
@@ -17,6 +17,7 @@ document.getElementById("registro").addEventListener("click", function(event) {
     event.preventDefault();
     window.location.href = "../registrar/registrar.html";
 });
+
 
 
 
